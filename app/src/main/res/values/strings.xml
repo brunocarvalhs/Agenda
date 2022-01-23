@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Agenda</string>
+    <string name="activity_list_student_name">Lista de alunos</string>
+    <string name="activity_form_student_name">Cadastrar aluno</string>
+    <string name="activity_form_student_app_compat_edit_text_hint_name">Nome</string>
+    <string name="activity_form_student_app_compat_edit_text_hint_phone">Telefone</string>
+    <string name="activity_form_student_app_compat_edit_text_hint_mail">E-mail</string>
+    <string name="activity_form_student_app_compat_button_text">Salvar</string>
+
+</resources>

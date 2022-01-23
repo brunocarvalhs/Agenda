@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/activity_form_student_name"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:hint="@string/activity_form_student_app_compat_edit_text_hint_name"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/activity_form_student_phone"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:hint="@string/activity_form_student_app_compat_edit_text_hint_phone"
+        android:layout_height="wrap_content"
+        android:inputType="phone" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/activity_form_student_mail"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:hint="@string/activity_form_student_app_compat_edit_text_hint_mail"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/activity_form_student_button_save"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:text="@string/activity_form_student_app_compat_button_text"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
